@@ -1,7 +1,58 @@
 /* MOBILE LAYOUT */
 
-* {
+html {
   height: 100%;
-  width: 100%
+  width: 100%;
 }
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #f4f1de;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  grid-template-areas: 
+    "nav"
+    "main";
+}
+
+.nav-bar {
+  grid-area: nav;
+  background: #3d405b;
+  color: #f4f1de;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-drop-down {
+  font-size: .8em;
+  font-weight: 200;
+  text-align: right;
+}
+
+.title {
+  font-size: 1.6em;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.main {
+  grid-area: main;
+}
+
+
 
