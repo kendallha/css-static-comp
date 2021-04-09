@@ -38,16 +38,33 @@ body {
   flex-direction: column;
   justify-content: space-around;
   font-size: .9em;
+  list-style-type: none;
+  width: 50%;
+}
+
+.bullet {
+  height: 1em;
+  width: 1em;
+  margin-right: 5%;
 }
 
 .local {
   color: #E07A5F;
 }
 
+.nav-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .user-drop-down {
   font-size: .65em;
   font-weight: 200;
-  text-align: right;
+  width: 80%;
+  /* text-align: right; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .title {
@@ -55,6 +72,16 @@ body {
   text-align: right;
   margin-right: 5%;
   letter-spacing: .1em;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+}
+
+.mushroom-icon {
+  width: 1em;
+  height: 1em;
 }
 
 .main {
@@ -113,7 +140,7 @@ body {
   background-color: #E56635;
   color: #EFEFEF;
   width: 22%;
-  height: 50%; 
+  height: 45%; 
   border-radius: 50%;
   position: absolute;
   top: 10%;
