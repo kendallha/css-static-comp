@@ -334,20 +334,20 @@ body {
   
   .mushroom-cards {
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 5%;
-    column-gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 3%;
     padding: 5%;
     height: 100%;
-    width: 100%;
+    width: 90%;
+    justify-content: end;
   }
   
   .card {
     background: #CFDAE1;
     box-shadow: 0 0 6px 6px #C1C1C1;
-    width: 80%;
+    width: 100%;
     height: 100%;
-    margin-bottom: 10%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 35% 65%;
@@ -364,6 +364,7 @@ body {
   .card-body {
     height: 100%;
     width: 100%;
+    margin-right: 5%;
   }
   
   .mushroom-pic {
@@ -408,7 +409,7 @@ body {
   
   .card-body {
     grid-area: content;
-    margin-left: 5%;
+    padding-left: 5%;
     color: #585959;
   }
   
@@ -450,8 +451,6 @@ body {
     color: #E56635;
     font-weight: 500;
   }
-
-
 }
 
 /* DESKTOP DISPLAY */
@@ -481,11 +480,9 @@ body {
 
   .mushroom-cards {
     grid-template-columns: repeat(4, 1fr);
-    padding: 2% 1% 0 2%;
+    column-gap: 1%;
+    
   }
-
-
-
   
 }
 
