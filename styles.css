@@ -41,6 +41,7 @@ body {
   list-style-type: none;
   width: 50%;
   padding-left: 5%;
+  color: rgb(145, 143, 143);
 }
 
 .bullet {
@@ -50,7 +51,7 @@ body {
 }
 
 .local {
-  color: #E56635;
+  color: white;
 }
 
 .nav-right-side {
@@ -273,6 +274,7 @@ body {
     font-size: .9em;
     list-style-type: none;
     width: 50%;
+    color: rgb(145, 143, 143);
   }
   
   .bullet {
@@ -282,7 +284,7 @@ body {
   }
   
   .local {
-    color: #E07A5F;
+    color: white;
   }
   
   .nav-right-side {
@@ -481,6 +483,7 @@ body {
   .mushroom-cards {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1%;
+    padding-top: 2%;
     
   }
   
